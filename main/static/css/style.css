@@ -1,0 +1,59 @@
+.boxes-container {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.box-container {
+    position: absolute;
+}
+
+.box-with-mask {
+    border: 2px solid green;
+}
+
+.box-without-mask {
+    border: 2px solid red;
+}
+
+.box-wear-imporper {
+    border: 2px solid yellow;
+}
+
+.label {
+    color: white;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: -16px;
+    white-space: nowrap;
+    padding: 0 5px;
+    font-size: 15px;
+}
+
+.label-with-mask {
+    background-color: green !important;
+}
+
+.label-without-mask {
+    background-color: red !important;
+}
+
+.label-wear-improper {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    border: solid 2px gray;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
