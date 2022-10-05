@@ -1,0 +1,5 @@
+django
+tensorflow
+cmake
+dlib
+face-recognition
